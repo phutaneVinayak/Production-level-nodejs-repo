@@ -12,13 +12,16 @@
   "author": "vinayak phutane",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.674.0",
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.22.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
+    "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.3"
   }
 }

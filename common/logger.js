@@ -1,7 +1,7 @@
 const Logger = function() {};
 
 Logger.prototype.info = function(msgStringText, value) {
-  console.log(`${new Date().toLocaleString()} INFO: ${msgStringText}:${value}`);
+  console.log(`${new Date().toLocaleString()} INFO: ${msgStringText}:${JSON.stringify(value)}`);
 };
 
 Logger.prototype.debug = function(msgStringText, value) {
